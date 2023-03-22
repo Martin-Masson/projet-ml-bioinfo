@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<MINiML
+   xmlns="http://www.ncbi.nlm.nih.gov/geo/info/MINiML"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.ncbi.nlm.nih.gov/geo/info/MINiML http://www.ncbi.nlm.nih.gov/geo/info/MINiML.xsd"
+   version="0.5.0" >
+
+    <Sample iid="GSM3533230">
+        <Status database="GEO">
+        <Submission-Date>2018-12-27</Submission-Date>
+        <Release-Date>2019-10-04</Release-Date>
+        <Last-Update-Date>2020-07-07</Last-Update-Date>
+        </Status>
+        <Title>CGND-HRA-00013</Title>
+        <Accession database="GEO">GSM3533230</Accession>
+        <Type>SRA</Type>
+        <Channel-Count>1</Channel-Count>
+        <Channel position="1">
+        <Source>Frontal Cortex</Source>
+        <Organism taxid="9606">Homo sapiens</Organism>
+        <Characteristics tag="tissue type">
+    post-mortem tissue
+        </Characteristics>
+        <Characteristics tag="cns subregion">
+    Frontal Cortex
+        </Characteristics>
+        <Characteristics tag="subject id">
+    NEUEL133AK6
+        </Characteristics>
+        <Characteristics tag="sample group">
+    ALS Spectrum MND
+        </Characteristics>
+        <Treatment-Protocol>
+    Flash frozen autopsy tissue
+        </Treatment-Protocol>
+        <Molecule>total RNA</Molecule>
+        <Extract-Protocol>
+    Total RNA is extracted from flash frozen post-mortem tissue using Trizol/Chloroform, followed by Qiagen RNeasy minikit column purification. RNA is quantified on a Nanodrop 2000 and Qubit™ 2.0 Fluorometer; the quality and integrity of the RNA are verified on an Agilent Bioanalyzer.
+    Starting from 500 ng of total RNA, rRNA are depleted and cDNA libraries prepared using the KAPA Stranded RNA-Seq Kit with RiboErase (KAPA, Roche) and Illumina platform-compatible PCR primers (NEXTflex RNA-seq indexes, BioScientific). Libraries are 500-550bp in length and sequenced PE 125.
+        </Extract-Protocol>
+        </Channel>
+        <Description>
+    total RNA rRNA depleted
+        </Description>
+        <Data-Processing>
+    fastq Illumina RNASeq paired-end reads were aligned to the hg19 reference genome using STAR v2.5.2b with the following configurations: --outFilterMultimapNmax 100; --outFilterMismatchNoverReadLmax 0.04
+    Genes and transposable elements (TE) were quantified using TEcount (from TEtranscripts v2.0.3) with the following configurations: hg19 genic GTF from refGene (Jan 2018), custom hg19 TE GTF generated from repeatMasker; --stranded reverse
+    Genome_build: hg19
+    Supplementary_files_format_and_content: Individual count tables (SampleName_counts.txt) were generated as output from TEcount
+        </Data-Processing>
+        <Platform-Ref ref="GPL16791" />
+        <Library-Strategy>RNA-Seq</Library-Strategy>
+        <Library-Source>transcriptomic</Library-Source>
+        <Library-Selection>cDNA</Library-Selection>
+        <Instrument-Model>
+        <Predefined>Illumina HiSeq 2500</Predefined>
+        </Instrument-Model>
+        <Contact-Ref ref="contrib1" />
+        <Supplementary-Data type="TXT">
+    ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3533nnn/GSM3533230/suppl/GSM3533230_CGND-HRA-00013_counts.txt.gz
+        </Supplementary-Data>
+        <Relation type="Reanalyzed by" target="GSM4660843" />
+        <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN10656686" />
+        <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX5185320" />
+    </Sample>
+
+    <Sample iid="GSM3533231">
+    <Status database="GEO">
+      <Submission-Date>2018-12-27</Submission-Date>
+      <Release-Date>2019-10-04</Release-Date>
+      <Last-Update-Date>2020-07-07</Last-Update-Date>
+    </Status>
+    <Title>CGND-HRA-00014-2</Title>
+    <Accession database="GEO">GSM3533231</Accession>
+    <Type>SRA</Type>
+    <Channel-Count>1</Channel-Count>
+    <Channel position="1">
+      <Source>Frontal Cortex</Source>
+      <Organism taxid="9606">Homo sapiens</Organism>
+      <Characteristics tag="tissue type">
+post-mortem tissue
+      </Characteristics>
+      <Characteristics tag="cns subregion">
+Frontal Cortex
+      </Characteristics>
+      <Characteristics tag="subject id">
+NEUYV496XLP
+      </Characteristics>
+      <Characteristics tag="sample group">
+ALS Spectrum MND
+      </Characteristics>
+      <Treatment-Protocol>
+Flash frozen autopsy tissue
+      </Treatment-Protocol>
+      <Molecule>total RNA</Molecule>
+      <Extract-Protocol>
+Total RNA is extracted from flash frozen post-mortem tissue using Trizol/Chloroform, followed by Qiagen RNeasy minikit column purification. RNA is quantified on a Nanodrop 2000 and Qubit™ 2.0 Fluorometer; the quality and integrity of the RNA are verified on an Agilent Bioanalyzer.
+Starting from 500 ng of total RNA, rRNA are depleted and cDNA libraries prepared using the KAPA Stranded RNA-Seq Kit with RiboErase (KAPA, Roche) and Illumina platform-compatible PCR primers (NEXTflex RNA-seq indexes, BioScientific). Libraries are 500-550bp in length and sequenced PE 125.
+      </Extract-Protocol>
+    </Channel>
+    <Description>
+total RNA rRNA depleted
+    </Description>
+    <Data-Processing>
+fastq Illumina RNASeq paired-end reads were aligned to the hg19 reference genome using STAR v2.5.2b with the following configurations: --outFilterMultimapNmax 100; --outFilterMismatchNoverReadLmax 0.04
+Genes and transposable elements (TE) were quantified using TEcount (from TEtranscripts v2.0.3) with the following configurations: hg19 genic GTF from refGene (Jan 2018), custom hg19 TE GTF generated from repeatMasker; --stranded reverse
+Genome_build: hg19
+Supplementary_files_format_and_content: Individual count tables (SampleName_counts.txt) were generated as output from TEcount
+    </Data-Processing>
+    <Platform-Ref ref="GPL16791" />
+    <Library-Strategy>RNA-Seq</Library-Strategy>
+    <Library-Source>transcriptomic</Library-Source>
+    <Library-Selection>cDNA</Library-Selection>
+    <Instrument-Model>
+      <Predefined>Illumina HiSeq 2500</Predefined>
+    </Instrument-Model>
+    <Contact-Ref ref="contrib1" />
+    <Supplementary-Data type="TXT">
+ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM3533nnn/GSM3533231/suppl/GSM3533231_CGND-HRA-00014-2_counts.txt.gz
+    </Supplementary-Data>
+    <Relation type="Reanalyzed by" target="GSM4660844" />
+    <Relation type="BioSample" target="https://www.ncbi.nlm.nih.gov/biosample/SAMN10656685" />
+    <Relation type="SRA" target="https://www.ncbi.nlm.nih.gov/sra?term=SRX5185321" />
+  </Sample>
+
+</MINiML>
