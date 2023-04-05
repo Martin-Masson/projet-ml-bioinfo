@@ -1,5 +1,10 @@
+# Jupter Notebook
 ipykernel
+
+# Utilities
 numpy
 pandas
-lxml
-seaborn
+matplotlib
+
+# Machine Learning
+scikit-learn
