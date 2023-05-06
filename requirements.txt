@@ -8,3 +8,7 @@ matplotlib
 
 # Machine Learning
 scikit-learn
+
+# Stats
+scipy
+statsmodels
